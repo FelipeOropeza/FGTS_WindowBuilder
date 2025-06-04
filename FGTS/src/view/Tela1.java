@@ -126,7 +126,7 @@ public class Tela1 {
 				    JOptionPane.showMessageDialog(null, mensagemFinal);
 				    
 				} catch (Exception erro) {
-				    JOptionPane.showMessageDialog(null, "Erro: " + erro.getMessage());
+				    JOptionPane.showMessageDialog(null, "Erro ao processar os dados: " + erro.getMessage());
 				}
 			}
 		});
